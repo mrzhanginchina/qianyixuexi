@@ -13,7 +13,7 @@ state = lstm.zero_state(batch_size, tf.float32)
 loss = 0.0
 
 # 在这里设置一个num_step来表示最长的可记忆的长度
-for i in range(num_steps):
+#for i in range(num_steps):
     # 在第一个时刻声明LSTM结构中使用的变量，在之后的时刻都需要复用之前定义的变量
     #if i>0:
      #   tf.get_variable_scope().resue_variables()
